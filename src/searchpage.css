@@ -1,0 +1,15 @@
+.ui.grid.search-grid {
+  margin: 1rem 1rem;
+}
+
+.ui.search.search-bar {
+  width: 100%;
+}
+
+.search-bar .ui.input {
+  width: 100%;
+}
+
+.search-results-container {
+  margin: auto;
+}
