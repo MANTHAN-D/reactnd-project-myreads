@@ -1,0 +1,19 @@
+#book-cover {
+  width: 205px;
+  height: 250px;
+}
+
+#book-title,
+#book-author {
+  font-size: 0.8em;
+}
+
+#book-card-content {
+  padding: 0.4em 0.4em;
+  white-space: normal;
+  border-top: 0px;
+}
+
+.ui.fluid.card {
+  width: 206px;
+}
