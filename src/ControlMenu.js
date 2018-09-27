@@ -27,23 +27,18 @@ const ControlMenu = props => {
           icon={currentShelfIndication(
             props.currentShelf === 'currentlyReading'
           )}
-          // value="currentlyReadingShelf"
           value="currentlyReading"
           onClick={(event, data) => props.onShelfChange(data.value)}
         />
         <Dropdown.Item
           text="Want to Read"
-          icon={currentShelfIndication(
-            props.currentShelf === 'wantToRead'
-          )}
-          // value="wantToReadShelf"
+          icon={currentShelfIndication(props.currentShelf === 'wantToRead')}
           value="wantToRead"
           onClick={(event, data) => props.onShelfChange(data.value)}
         />
         <Dropdown.Item
           text="Read"
           icon={currentShelfIndication(props.currentShelf === 'read')}
-          // value="readShelf"
           value="read"
           onClick={(event, data) => props.onShelfChange(data.value)}
         />
