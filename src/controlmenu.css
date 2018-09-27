@@ -1,0 +1,17 @@
+#control-menu-image {
+  background-color: #60ac5d;
+}
+
+.control-menu-dropdown {
+  float: right;
+}
+
+/* Hide control-menu-image when book-cover is hovered  */
+#book-cover:hover
+  + #book-card-content
+  > #book-author
+  > div
+  > div[role='listbox']
+  > #control-menu-image {
+  display: none;
+}
