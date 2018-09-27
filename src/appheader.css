@@ -1,0 +1,26 @@
+.ui.menu {
+  background: #2e7c31;
+}
+
+#app-header-brand,
+.ui.menu .item,
+.ui.menu .active.item {
+  color: #fff;
+}
+
+i.icon,
+i.icons {
+  font-size: 1.7em;
+}
+
+.ui.menu a.item:hover {
+  color: #fff;
+}
+
+.app-header > div > a:link,
+.app-header > div > a:active,
+.app-header > div > a:hover,
+.app-header > div > a:visited {
+  color: #fff;
+  text-decoration: none;
+}
